@@ -3,11 +3,10 @@ import os
 from consts import *
 from collections import defaultdict
 
-files = os.listdir(csv_dir)
-
 EMAIL_NAME = {}
 
 def data_csv_path_gen():
+    files = os.listdir(csv_dir)
     for file_name in files:
         abs_path = f"{csv_dir}\{file_name}"
         yield abs_path
