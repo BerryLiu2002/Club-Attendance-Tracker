@@ -1,6 +1,5 @@
 import csv
 import os
-from tkinter import E
 from consts import *
 from collections import defaultdict
 
